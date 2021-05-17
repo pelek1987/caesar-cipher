@@ -3,20 +3,20 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["airbnb-base", "plugin:prettier/recommended"],
+  extends: ['airbnb-base', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: "module",
+    sourceType: 'module',
   },
-  plugins: ["prettier"],
+  plugins: ['prettier'],
   rules: {
-    "no-unused-vars": "warn",
-    "no-use-before-define": ["error", { functions: false, classes: false }],
-    "prettier/prettier": [
-      "warn",
+    'no-console': 'off',
+    'no-unused-vars': 'warn',
+    'no-use-before-define': ['error', { functions: false, classes: false }],
+    'prettier/prettier': [
+      'error',
       {
-        semi: true,
-        trailingComma: "all",
+        singleQuote: true,
         printWidth: 150,
       },
     ],
