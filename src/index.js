@@ -1,8 +1,7 @@
-const caesar13 = (text) => {
-  if (typeof text !== 'string') {
-    throw new Error('Given argument has to be string');
-  }
-  if (text === '') {
-    throw new Error('Given string has to be not empty');
-  }
-};
+import caesar13 from './caesar13';
+import verify from './utils/verify';
+
+verify(caesar13('PRZEPROGRAMOWANI'), 'CEMRCEBTENZBJNAV');
+verify(caesar13('przeprogramowani'), 'cemrcebtenzbjnav');
+verify(caesar13('PrZePrOgRaMoWaNi'), 'CeMrCeBtEnZbJnAv');
+verify(caesar13('PrZ3Pr0gR4MoWaN1'), 'CeM3Ce0tE4ZbJnA1');
