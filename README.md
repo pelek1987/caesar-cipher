@@ -1,6 +1,6 @@
 # caeasar-cipher
 
-## Jak ropocząć prace ze środowiskiem
+## Jak ropocząć prace z aplikacją
 
 - Zainstaluj na swoim komputerze środowisko uruchomieniowe **node.js**
 - Zainstaluj menagera pakietów czyli **npm**
