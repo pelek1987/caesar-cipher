@@ -13,7 +13,7 @@ const caesar13 = (text) => {
 
   const encryptedLetters = [];
 
-  for (let i; i < letters.length; i++) {
+  for (let i = 0; i < letters.length; i++) {
     const letter = letters[i];
     const indexOfLowerCase = lowerCaseAlphabet.indexOf(letter);
     const indexOfUpperCase = upperCaseAlphabet.indexOf(letter);
